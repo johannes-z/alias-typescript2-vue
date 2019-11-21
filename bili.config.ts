@@ -17,12 +17,12 @@ const config: Config = {
   },
 
   plugins: {
-    alias: {
-      resolve: ['.jsx', '.js', '.vue', '.ts'],
-      entries: [
-        { find: /^@\/(.*)/, replacement: path.resolve(projectRoot, 'src/$1') },
-      ],
-    },
+    // alias: {
+    //   resolve: ['.jsx', '.js', '.vue', '.ts'],
+    //   entries: [
+    //     { find: /^@\/(.*)/, replacement: path.resolve(projectRoot, 'src/$1') },
+    //   ],
+    // },
     babel: {
       exclude: /node_modules/,
     },
