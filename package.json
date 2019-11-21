@@ -1,0 +1,20 @@
+{
+  "name": "alias-typescript2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-property-decorator": "^8.3.0"
+  },
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup": "^1.27.3",
+    "rollup-plugin-alias": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "rollup-plugin-vue": "5.1.1",
+    "typescript": "^3.7.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
