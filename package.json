@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "bili --format esm"
+  },
   "dependencies": {
     "vue": "^2.6.10",
     "vue-class-component": "^7.1.0",
